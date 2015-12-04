@@ -18,3 +18,8 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
+
+
+every 1.minutes do
+  command "ruby ~/Github/Raspberry-sensor/DHT11/daily.rb"
+end
