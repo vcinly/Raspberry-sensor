@@ -1,0 +1,21 @@
+GEM
+  remote: https://ruby.taobao.org/
+  specs:
+    chronic (0.10.2)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    json (1.8.3)
+    multipart-post (2.0.0)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  json
+  whenever
+
+BUNDLED WITH
+   1.10.6
