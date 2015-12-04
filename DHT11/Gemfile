@@ -1,0 +1,5 @@
+source 'https://ruby.taobao.org/'
+
+gem 'faraday'
+gem 'json'
+gem 'whenever'
