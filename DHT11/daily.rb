@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
-require 'rubygems'
-require 'bundler'
+# # -*- coding: utf-8 -*-
+# require 'rubygems'
+# require 'bundler'
 
-Bundler.require(:default)
+# Bundler.require(:default)
 
 output = `sudo ./temp`
 match_data = output.match /RH:(?<RH>\d+),TEMP:(?<TEMP>\d+)/
