@@ -4,7 +4,7 @@
 
 # Bundler.require(:default)
 
-output = `sudo ./temp`
+output = `sudo ~/Github/Raspberry-sensor/DHT11/temp`
 match_data = output.match /RH:(?<RH>\d+),TEMP:(?<TEMP>\d+)/
 
 humidity = match_data['RH']
